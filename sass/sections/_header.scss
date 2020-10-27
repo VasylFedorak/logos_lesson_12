@@ -1,0 +1,120 @@
+header {
+    max-width: 320px;
+    margin: 0 auto;
+    height: 540px;
+    padding-top: 20px;
+    background-color: rgba(128, 134, 143, 0.774);
+    background-image: url(../../img/mobile/Background-min.jpg);
+    background-size: cover;
+    background-position: center;
+
+    @media screen and(max-width:320px) {
+        & {
+            width: 320px;
+        }
+    }
+
+
+}
+
+.header__top {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.header__top__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 97px;
+
+}
+
+.header__top__buttons_style {
+    width: 90px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.sign-in {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.header__top__logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 27px;
+}
+
+.header__top__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.header__top__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 136% */
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    color: #F7F3F2;
+
+    margin-bottom: 15px;
+}
+
+.header__top__mainButton {
+
+    display: block;
+
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(255, 78, 80, 1);
+    border: 1px solid transparent;
+    border-radius: 40px;
+    width: 280px;
+    height: 40px;
+    padding: 12px 47px;
+    box-sizing: border-box;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+
+}
