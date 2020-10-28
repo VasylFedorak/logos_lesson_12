@@ -78,6 +78,8 @@ header {
 }
 
 .header__top__text {
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -97,13 +99,12 @@ header {
 
     display: block;
 
-    align-items: center;
-    text-align: center;
+
     margin: 0 auto;
     background-color: rgba(255, 78, 80, 1);
     border: 1px solid transparent;
     border-radius: 40px;
-    width: 280px;
+    max-width: 280px;
     height: 40px;
     padding: 12px 47px;
     box-sizing: border-box;

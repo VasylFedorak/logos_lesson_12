@@ -1,0 +1,56 @@
+.section__meetPartner {
+    padding-bottom: 36px;
+}
+
+.section__meetPartner li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__meetPartner li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.section__meetPartner__title {
+    margin-bottom: 30px;
+}
+
+.section__meetPartner__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #666666;
+}
+
+.section__meetPartner__button {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 280px;
+    height: 40px;
+    padding: 12px 64px;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #FF4E50;
+}

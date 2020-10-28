@@ -1,0 +1,97 @@
+.section-holidayActivity {
+  margin-bottom: 36px;
+}
+
+.section-holidayActivity__item {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+
+  background-color: rgb(160, 190, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-holidayActivity li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section-holidayActivity__item.first {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Object-min.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.section-holidayActivity__item.second {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap3-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item.third {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap5-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item.fourth {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap6-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item.fifth {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap7-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item.sixth {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap8-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item.seventh {
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../../img/mobile/Bitmap9-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-holidayActivity__item__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #ffffff;
+}
