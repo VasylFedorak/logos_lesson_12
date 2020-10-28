@@ -28,4 +28,8 @@ body {
     color: #444444;
 
     margin-bottom: 20px;
+
+    @media screen and (min-width:$tablet) {
+        margin-bottom: 36px;
+    }
 }
