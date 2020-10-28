@@ -498,7 +498,7 @@ a {
 
 /*розміри чек-поінтів*/
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -506,6 +506,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 748px;
+  }
 }
 
 .section__title {
@@ -535,6 +541,15 @@ header {
   }
 }
 
+@media screen and (min-width: 768px) {
+  header {
+    max-width: 768px;
+    height: 700px;
+    padding-top: 40px;
+    background-image: url(../../img/tablet/Background11-min.jpg);
+  }
+}
+
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -543,6 +558,20 @@ header {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .header__top {
+    height: 36px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 154px;
+  }
 }
 
 .header__top__buttons {
@@ -608,13 +637,22 @@ header {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .header__top__title {
+    font-size: 52px;
+    line-height: 63px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+  }
+}
+
 .header__top__text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  /* or 136% */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -626,6 +664,14 @@ header {
           justify-content: center;
   color: #F7F3F2;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__top__text {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 33px;
+  }
 }
 
 .header__top__mainButton {
@@ -644,6 +690,13 @@ header {
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .header__top__mainButton {
+    max-width: 225px;
+    padding: 12px 27px;
+  }
 }
 
 article {

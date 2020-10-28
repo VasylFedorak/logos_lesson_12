@@ -1,6 +1,5 @@
 body {
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -11,6 +10,11 @@ body {
     margin: 0 auto;
     // background-color: violet;
 
+    @media screen and(min-width:$tablet) {
+        & {
+            width: 748px;
+        }
+    }
 }
 
 .section__title {
@@ -18,7 +22,6 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-
 
     text-align: center;
 
