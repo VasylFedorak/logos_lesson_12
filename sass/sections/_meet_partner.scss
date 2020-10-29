@@ -1,7 +1,6 @@
 .section__meetPartner {
     padding-bottom: 36px;
 
-
     @media screen and(min-width:$tablet) {
         padding-bottom: 95px;
 
@@ -10,7 +9,7 @@
         }
     }
 
-    @media screen and(min-width:$tablet) and (max-width:1139px) {
+    @media screen and(min-width:$tablet) and (max-width: 1139px) {
         ul {
             flex-wrap: wrap;
             margin: -10px;
@@ -24,26 +23,22 @@
             justify-content: space-between;
             align-items: flex-start;
         }
-
     }
 }
 
 .section__meetPartner li {
-    display: flex;
+    @extend %mainFlex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 
     @media screen and(max-width:767px) {
         &:not(:last-child) {
             margin-bottom: 16px;
-
         }
     }
 
-    @media screen and (min-width:$tablet) and (max-width:1139px) {
-        width: calc((100% - 40px)/2);
-        background-color: turquoise;
+    @media screen and (min-width: $tablet) and (max-width: 1139px) {
+        width: calc((100% - 40px) / 2);
 
         padding-left: 15px;
         padding-right: 15px;
@@ -54,11 +49,9 @@
     }
 
     @media screen and(min-width:$desktop) {
-        width: calc((100% - 60px)/4);
-        background-color: turquoise;
+        width: calc((100% - 60px) / 4);
     }
 }
-
 
 .section__meetPartner__foto {
     margin-bottom: 17px;
@@ -89,19 +82,19 @@
 }
 
 .section__meetPartner__button {
-    display: flex;
 
-    align-items: center;
-    justify-content: center;
+    @extend %mainFlex;
+
     margin-top: 36px;
     margin-left: auto;
     margin-right: auto;
 
     max-width: 280px;
     height: 40px;
-    padding: 12px 64px;
-    background: #FFFFFF;
-    border: 2px solid #FF4E50;
+    @include padding(12px 64px);
+
+    background: #ffffff;
+    border: 2px solid #ff4e50;
     box-sizing: border-box;
     border-radius: 40px;
 
@@ -110,12 +103,12 @@
     font-size: 14px;
     line-height: 17px;
 
-
-    color: #FF4E50;
+    color: #ff4e50;
 
     @media screen and(min-width:$tablet) {
         margin-top: 40px;
         max-width: 180px;
-        padding: 5px 15px;
+        @include padding(5px 15px);
+
     }
 }

@@ -1,8 +1,10 @@
 article {
-  padding: 64px 20px 16px;
+  @include padding(64px 20px 16px);
+
 
   @media screen and (min-width: $tablet) {
-    padding: 200px 20px 16px;
+    @include padding(200px 20px 16px);
+
   }
 }
 
@@ -41,8 +43,7 @@ article {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width: $tablet) {
     background-image: linear-gradient(to right,
@@ -61,24 +62,24 @@ article {
 
 .section__dreamshareWorks .second-article {
   background-image: url(../img/mobile/Step1image1-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width: $tablet) {
     background-image: url(../img/tablet/Step1image1-min.jpg);
-    padding: 220px 20px 16px;
+    @include padding(200px 20px 16px);
+
   }
 
   @media screen and (min-width: $desktop) {
     background-image: url(../img/desktop/Step1image4-min.jpg);
-    padding: 220px 20px 16px;
+
   }
 }
 
 .section__dreamshareWorks .third-article {
   background-image: url(../img/mobile/Step1image2-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
+
 
   @media screen and (min-width: $tablet) {
     background-image: url(../img/tablet/Step1image2-min.jpg);
@@ -93,13 +94,12 @@ article {
 }
 
 .section__dreamshareWorks__step {
-  display: flex;
+  @extend %mainFlex;
+
   width: 70px;
   height: 20px;
   background: #ff4e50;
   border-radius: 40px;
-  justify-content: center;
-  align-items: center;
 
   font-style: normal;
   font-weight: normal;

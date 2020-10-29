@@ -78,9 +78,7 @@
   border-radius: 4px;
 
   background-color: rgb(160, 190, 187);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %mainFlex;
 
   @media screen and (min-width:$tablet) {
     height: 310px;
@@ -99,8 +97,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Object-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
   padding-left: 60px;
   padding-right: 60px;
 
@@ -127,8 +124,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap3-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width:$tablet) {
 
@@ -151,8 +147,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap5-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width:$tablet) {
 
@@ -175,8 +170,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap6-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width:$tablet) {
 
@@ -199,9 +193,8 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap7-min.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  @extend %backgraundIMGstyle;
+
 
   @media screen and (min-width:$tablet) {
 
@@ -224,8 +217,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap8-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width:$tablet) {
 
@@ -248,8 +240,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
     url(../img/mobile/Bitmap9-min.jpg);
-  background-size: cover;
-  background-position: center;
+  @extend %backgraundIMGstyle;
 
   @media screen and (min-width:$tablet) {
 

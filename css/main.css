@@ -364,7 +364,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-input[type="search"] {
+input[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   -webkit-box-sizing: content-box;
@@ -497,6 +497,23 @@ a {
 }
 
 /*розміри чек-поінтів*/
+header, .section__dreamshareWorks .first-article, .section__dreamshareWorks .second-article, .section__dreamshareWorks .third-article, .section-holidayActivity__item.first, .section-holidayActivity__item.second, .section-holidayActivity__item.third, .section-holidayActivity__item.fourth, .section-holidayActivity__item.fifth, .section-holidayActivity__item.sixth, .section-holidayActivity__item.seventh {
+  background-size: cover;
+  background-position: center;
+}
+
+.section__meetPartner li, .section__meetPartner__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -554,8 +571,6 @@ header {
   padding-top: 20px;
   background-color: rgba(128, 134, 143, 0.774);
   background-image: url(../img/mobile/Background-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (max-width: 320px) {
@@ -775,8 +790,6 @@ article {
 .section__dreamshareWorks .first-article {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -795,28 +808,23 @@ article {
 
 .section__dreamshareWorks .second-article {
   background-image: url(../img/mobile/Step1image1-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
   .section__dreamshareWorks .second-article {
     background-image: url(../img/tablet/Step1image1-min.jpg);
-    padding: 220px 20px 16px;
+    padding: 200px 20px 16px;
   }
 }
 
 @media screen and (min-width: 1140px) {
   .section__dreamshareWorks .second-article {
     background-image: url(../img/desktop/Step1image4-min.jpg);
-    padding: 220px 20px 16px;
   }
 }
 
 .section__dreamshareWorks .third-article {
   background-image: url(../img/mobile/Step1image2-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -937,19 +945,10 @@ article {
 }
 
 .section__meetPartner li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -960,8 +959,7 @@ article {
 
 @media screen and (min-width: 768px) and (max-width: 1139px) {
   .section__meetPartner li {
-    width: calc((100% - 40px)/2);
-    background-color: turquoise;
+    width: calc((100% - 40px) / 2);
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -975,8 +973,7 @@ article {
 
 @media screen and (min-width: 1140px) {
   .section__meetPartner li {
-    width: calc((100% - 60px)/4);
-    background-color: turquoise;
+    width: calc((100% - 60px) / 4);
   }
 }
 
@@ -1016,23 +1013,14 @@ article {
 }
 
 .section__meetPartner__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 36px;
   margin-left: auto;
   margin-right: auto;
   max-width: 280px;
   height: 40px;
   padding: 12px 64px;
-  background: #FFFFFF;
-  border: 2px solid #FF4E50;
+  background: #ffffff;
+  border: 2px solid #ff4e50;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 40px;
@@ -1040,7 +1028,7 @@ article {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #FF4E50;
+  color: #ff4e50;
 }
 
 @media screen and (min-width: 768px) {
@@ -1172,8 +1160,6 @@ article {
 .section-holidayActivity__item.first {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Object-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Object-min.jpg);
-  background-size: cover;
-  background-position: center;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -1195,8 +1181,6 @@ article {
 .section-holidayActivity__item.second {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap3-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap3-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1216,8 +1200,6 @@ article {
 .section-holidayActivity__item.third {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap5-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap5-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1237,8 +1219,6 @@ article {
 .section-holidayActivity__item.fourth {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap6-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap6-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1258,9 +1238,6 @@ article {
 .section-holidayActivity__item.fifth {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap7-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap7-min.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1280,8 +1257,6 @@ article {
 .section-holidayActivity__item.sixth {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap8-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap8-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1301,8 +1276,6 @@ article {
 .section-holidayActivity__item.seventh {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/mobile/Bitmap9-min.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/Bitmap9-min.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 @media screen and (min-width: 768px) {

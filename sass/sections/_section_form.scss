@@ -29,10 +29,9 @@
 
 .section-form__flex {
   @media screen and (max-width:767px) {
-    display: flex;
+    @extend %mainFlex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
   }
 
   @media screen and(min-width:$tablet) {
@@ -86,8 +85,8 @@
 }
 
 .section-form .header__top__mainButton {
+  @include padding(12px 76px 11px 77px);
 
-  padding: 12px 76px 11px 77px;
 
   @media screen and(max-width:767px) {
     max-width: 280px;
@@ -96,7 +95,8 @@
   @media screen and(min-width:$tablet) {
     margin: 0;
     width: 172px;
-    padding: 12px 16px 11px 16px;
+    @include padding(12px 16px 11px 16px);
+
   }
 
 }
