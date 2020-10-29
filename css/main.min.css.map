@@ -7,7 +7,7 @@
         "../sass/base/_font.scss",
         "../sass/_variables.scss",
         "../sass/base/_common.scss",
-        "../sass/sections/_header.scss",
+        "../sass/_header.scss",
         "../sass/sections/_how_dream_woks.scss",
         "../sass/sections/_meet_partner.scss",
         "../sass/sections/_holiday_activity.scss",
