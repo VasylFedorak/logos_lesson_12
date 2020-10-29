@@ -40,7 +40,7 @@ article {
   background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)),
-    url(../../img/mobile/Bitmap-min.jpg);
+    url(../img/mobile/Bitmap-min.jpg);
   background-size: cover;
   background-position: center;
 
@@ -48,47 +48,47 @@ article {
     background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-      url(../../img/tablet/Bitmap44-min.jpg);
+      url(../img/tablet/Bitmap44-min.jpg);
   }
 
   @media screen and (min-width: $desktop) {
     background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-      url(../../img/desktop/Step1image3-min.jpg);
+      url(../img/desktop/Step1image3-min.jpg);
   }
 }
 
 .section__dreamshareWorks .second-article {
-  background-image: url(../../img/mobile/Step1image1-min.jpg);
+  background-image: url(../img/mobile/Step1image1-min.jpg);
   background-size: cover;
   background-position: center;
 
   @media screen and (min-width: $tablet) {
-    background-image: url(../../img/tablet/Step1image1-min.jpg);
+    background-image: url(../img/tablet/Step1image1-min.jpg);
     padding: 220px 20px 16px;
   }
 
   @media screen and (min-width: $desktop) {
-    background-image: url(../../img/desktop/Step1image4-min.jpg);
+    background-image: url(../img/desktop/Step1image4-min.jpg);
     padding: 220px 20px 16px;
   }
 }
 
 .section__dreamshareWorks .third-article {
-  background-image: url(../../img/mobile/Step1image2-min.jpg);
+  background-image: url(../img/mobile/Step1image2-min.jpg);
   background-size: cover;
   background-position: center;
 
   @media screen and (min-width: $tablet) {
-    background-image: url(../../img/tablet/Step1image2-min.jpg);
+    background-image: url(../img/tablet/Step1image2-min.jpg);
   }
 
   @media screen and (min-width: $desktop) {
     background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-      url(../../img/desktop/Bitmap5-min.jpg);
+      url(../img/desktop/Bitmap5-min.jpg);
   }
 }
 
