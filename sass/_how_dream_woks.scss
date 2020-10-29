@@ -100,11 +100,8 @@ article {
   height: 20px;
   background: #ff4e50;
   border-radius: 40px;
+  @include mainFont(normal, normal, 10px, 20px);
 
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 20px;
   display: flex;
   align-items: flex-end;
   letter-spacing: 2px;
@@ -124,10 +121,8 @@ article {
 }
 
 .section__dreamshareWorks__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 14px;
+  @include mainFont(normal, bold, 24px, 14px);
+
 
   display: flex;
   align-items: flex-end;
@@ -139,10 +134,8 @@ article {
 
 .section__dreamshareWorks__text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 14px;
+  @include mainFont(normal, 300, 14px, 14px);
+
   display: flex;
   align-items: flex-end;
 

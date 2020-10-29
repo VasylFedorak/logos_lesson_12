@@ -51,10 +51,8 @@ header {
   height: 36px;
   background-color: transparent;
   border: 1px solid transparent;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
+  @include mainFont(normal, normal 14px, 17px);
+
 
   @extend %mainFlex;
 
@@ -68,10 +66,8 @@ header {
 }
 
 .header__top__logo {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
+  @include mainFont(normal, bold, 20px, 24px);
+  
   display: flex;
   justify-content: center;
 
@@ -81,10 +77,8 @@ header {
 }
 
 .header__top__title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 37px;
+  @include mainFont(normal, bold, 30px, 37px);
+  
   text-align: center;
 
   color: #ffffff;

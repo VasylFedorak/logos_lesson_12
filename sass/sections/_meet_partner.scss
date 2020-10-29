@@ -59,9 +59,8 @@
 
 .section__meetPartner__title {
     margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    @include mainFont(normal, bold, 14px, 17px);
+
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -71,10 +70,8 @@
 
 .section__meetPartner__text {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
+    @include mainFont(normal, 300, 14px, 14px);
+
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -97,11 +94,8 @@
     border: 2px solid #ff4e50;
     box-sizing: border-box;
     border-radius: 40px;
+    @include mainFont(normal, bold, 14px, 17px);
 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
 
     color: #ff4e50;
 

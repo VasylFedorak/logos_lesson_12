@@ -20,15 +20,9 @@ body {
 }
 
 .section__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-
+    @include mainFont(normal, bold, 22px, 27px);
     text-align: center;
-
     color: #444444;
-
     margin-bottom: 20px;
 
     @media screen and (min-width:$tablet) {

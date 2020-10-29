@@ -2,6 +2,13 @@
     padding: $padding;
 }
 
+@mixin mainFont($style, $weight, $size, $height) {
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
 %backgraundIMGstyle {
     background-size: cover;
     background-position: center;
