@@ -29,6 +29,8 @@
 }
 
 .section-form__flex {
+
+
   @media screen and(min-width:$tablet) {
     display: flex;
     justify-content: space-evenly;
@@ -48,6 +50,7 @@
 
   height: 40px;
   padding: 14px 50px 10px 15px;
+
   margin-bottom: 10px;
   background: #ffffff;
   border: 1px solid #d4d4d4;

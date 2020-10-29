@@ -553,7 +553,7 @@ header {
   height: 540px;
   padding-top: 20px;
   background-color: rgba(128, 134, 143, 0.774);
-  background-image: url(/img/mobile/Background-min.jpg);
+  background-image: url(../img/mobile/Background-min.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -569,14 +569,14 @@ header {
     max-width: 768px;
     height: 700px;
     padding-top: 40px;
-    background-image: url(/img/tablet/Background11-min.jpg);
+    background-image: url(../img/tablet/Background11-min.jpg);
   }
 }
 
 @media screen and (min-width: 1140px) {
   header {
     max-width: 1440px;
-    background-image: url(/img/desktop/Background-min.jpg);
+    background-image: url(../img/desktop/Background-min.jpg);
   }
 }
 
