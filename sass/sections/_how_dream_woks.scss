@@ -22,6 +22,11 @@ article {
       }
     }
   }
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 95px;
+
+  }
 }
 
 .section__dreamshareWorks article {
@@ -45,6 +50,13 @@ article {
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Bitmap44-min.jpg);
   }
+
+  @media screen and (min-width: $desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Step1image3-min.jpg);
+  }
 }
 
 .section__dreamshareWorks .second-article {
@@ -56,6 +68,11 @@ article {
     background-image: url(../../img/tablet/Step1image1-min.jpg);
     padding: 220px 20px 16px;
   }
+
+  @media screen and (min-width: $desktop) {
+    background-image: url(../../img/desktop/Step1image4-min.jpg);
+    padding: 220px 20px 16px;
+  }
 }
 
 .section__dreamshareWorks .third-article {
@@ -65,6 +82,13 @@ article {
 
   @media screen and (min-width: $tablet) {
     background-image: url(../../img/tablet/Step1image2-min.jpg);
+  }
+
+  @media screen and (min-width: $desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Bitmap5-min.jpg);
   }
 }
 

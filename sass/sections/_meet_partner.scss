@@ -6,11 +6,23 @@
 
         ul {
             display: flex;
+        }
+    }
+
+    @media screen and(max-width:1139px) {
+        ul {
             flex-wrap: wrap;
             margin: -10px;
             padding-left: 80px;
             padding-right: 80px;
         }
+    }
+
+    @media screen and(min-width:$desktop) {
+        ul {
+            justify-content: space-between;
+        }
+
     }
 }
 
@@ -30,9 +42,17 @@
     @media screen and(min-width:$tablet) {
         width: calc((100% - 40px)/2);
         // background-color: turquoise;
-        margin: 10px;
+
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    @media screen and(max-width:1139px) {
+        margin: 10px;
+    }
+
+    @media screen and(min-width:$desktop) {
+        width: calc((100% - 60px)/4);
     }
 }
 
@@ -42,7 +62,7 @@
 }
 
 .section__meetPartner__title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;

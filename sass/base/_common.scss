@@ -8,12 +8,14 @@ body {
     padding-right: 15px;
 
     margin: 0 auto;
-    background-color: violet;
+    // background-color: violet;
 
     @media screen and(min-width:$tablet) {
-        & {
-            width: 748px;
-        }
+        width: 748px;
+    }
+
+    @media screen and(min-width:$desktop) {
+        width: 940px;
     }
 }
 
@@ -30,6 +32,18 @@ body {
     margin-bottom: 20px;
 
     @media screen and (min-width:$tablet) {
+        & {
+            margin-bottom: 36px;
+        }
+
         margin-bottom: 36px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        & {
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 43px;
+        }
     }
 }

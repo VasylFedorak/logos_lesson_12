@@ -1,5 +1,9 @@
 .section-holidayActivity {
-  margin-bottom: 36px;
+  padding-bottom: 36px;
+
+  @media screen and (min-width:$tablet) {
+    padding-bottom: 95px;
+  }
 }
 
 .section-holidayActivity .section__title {
@@ -11,10 +15,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    row-gap: 10px;
-    column-gap: 10px;
+    justify-content: stretch;
+    align-items: stretch;
+    row-gap: 20px;
+    column-gap: 20px;
 
     & li:nth-child(1) {
       grid-column-start: 1;
@@ -65,7 +69,6 @@
       grid-row-end: 4;
     }
 
-
   }
 }
 
@@ -80,7 +83,7 @@
   align-items: center;
 
   @media screen and (min-width:$tablet) {
-    height: 390px;
+    height: 310px;
   }
 }
 
@@ -98,8 +101,9 @@
     url(../../img/mobile/Object-min.jpg);
   background-size: cover;
   background-position: center;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 60px;
+  padding-right: 60px;
+
 
   @media screen and (min-width:$tablet) {
 
@@ -107,6 +111,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object-min.jpg);
+  }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Bitmap6-min.jpg);
   }
 
 }
@@ -126,6 +137,13 @@
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object1-min.jpg);
   }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object-min.jpg);
+  }
 }
 
 .section-holidayActivity__item.third {
@@ -143,6 +161,13 @@
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object2-min.jpg);
   }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object2-min.jpg);
+  }
 }
 
 .section-holidayActivity__item.fourth {
@@ -159,6 +184,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object3-min.jpg);
+  }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object8-min.jpg);
   }
 }
 
@@ -178,6 +210,13 @@
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object4-min.jpg);
   }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object9-min.jpg);
+  }
 }
 
 .section-holidayActivity__item.sixth {
@@ -195,6 +234,13 @@
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object5-min.jpg);
   }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object10-min.jpg);
+  }
 }
 
 .section-holidayActivity__item.seventh {
@@ -211,6 +257,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
       url(../../img/tablet/Object6-min.jpg);
+  }
+
+  @media screen and (min-width:$desktop) {
+    background-image: linear-gradient(to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url(../../img/desktop/Object11-min.jpg);
   }
 }
 

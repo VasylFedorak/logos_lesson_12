@@ -1,5 +1,9 @@
 .section-form {
   padding-bottom: 40px;
+
+  @media screen and(min-width:$tablet) {
+    padding-bottom: 100px;
+  }
 }
 
 .section-form__text {
@@ -12,16 +16,36 @@
 
   display: flex;
   align-items: flex-end;
-  text-align: center;
+  // text-align: center;
+  justify-content: center;
 
   color: #666666;
 
   margin-bottom: 15px;
+
+  @media screen and(min-width:$tablet) {
+    margin-bottom: 25px;
+  }
+}
+
+.section-form__flex {
+  @media screen and(min-width:$tablet) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  @media screen and(min-width:$desktop) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
 .section-form__email {
   box-sizing: border-box;
-  max-width: 280px;
+
   height: 40px;
   padding: 14px 50px 10px 15px;
   margin-bottom: 10px;
@@ -30,6 +54,16 @@
   box-sizing: border-box;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
   border-radius: 3px;
+
+  @media screen and(max-width:767px) {
+    max-width: 280px;
+  }
+
+  @media screen and(min-width:$tablet) {
+    margin-bottom: 0;
+    width: 300px;
+
+  }
 
   &::placeholder {
     font-family: Roboto;
@@ -45,6 +79,17 @@
 }
 
 .section-form .header__top__mainButton {
-  max-width: 280px;
+
   padding: 12px 76px 11px 77px;
+
+  @media screen and(max-width:767px) {
+    max-width: 280px;
+  }
+
+  @media screen and(min-width:$tablet) {
+    margin: 0;
+    width: 172px;
+    padding: 12px 16px 11px 16px;
+  }
+
 }
