@@ -1,6 +1,7 @@
 .section__meetPartner {
     padding-bottom: 36px;
 
+
     @media screen and(min-width:$tablet) {
         padding-bottom: 95px;
 
@@ -9,7 +10,7 @@
         }
     }
 
-    @media screen and(max-width:1139px) {
+    @media screen and(min-width:$tablet) and (max-width:1139px) {
         ul {
             flex-wrap: wrap;
             margin: -10px;
@@ -21,6 +22,7 @@
     @media screen and(min-width:$desktop) {
         ul {
             justify-content: space-between;
+            align-items: flex-start;
         }
 
     }
@@ -39,9 +41,9 @@
         }
     }
 
-    @media screen and(min-width:$tablet) {
+    @media screen and (min-width:$tablet) and (max-width:1139px) {
         width: calc((100% - 40px)/2);
-        // background-color: turquoise;
+        background-color: turquoise;
 
         padding-left: 15px;
         padding-right: 15px;
@@ -53,6 +55,7 @@
 
     @media screen and(min-width:$desktop) {
         width: calc((100% - 60px)/4);
+        background-color: turquoise;
     }
 }
 
