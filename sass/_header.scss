@@ -47,11 +47,11 @@ header {
 }
 
 .header__top__buttons_style {
-  width: 90px;
-  height: 36px;
+  @include widthHeight(90px, 36px);
+
   background-color: transparent;
   border: 1px solid transparent;
-  @include mainFont(normal, normal 14px, 17px);
+  @include mainFont(normal, normal, 14px, 17px);
 
 
   @extend %mainFlex;
@@ -67,7 +67,7 @@ header {
 
 .header__top__logo {
   @include mainFont(normal, bold, 20px, 24px);
-  
+
   display: flex;
   justify-content: center;
 
@@ -78,7 +78,7 @@ header {
 
 .header__top__title {
   @include mainFont(normal, bold, 30px, 37px);
-  
+
   text-align: center;
 
   color: #ffffff;
@@ -88,18 +88,15 @@ header {
   @media screen and(min-width:$tablet) {
     font-size: 52px;
     line-height: 63px;
-    padding-left: 100px;
-    padding-right: 100px;
+    @include paddinLeftRight(100px, 100px);
     margin-bottom: 40px;
   }
 }
 
 .header__top__text {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 24px;
+
+  @include mainFont (normal, 300, 18px, 24px);
 
   display: flex;
   align-items: flex-end;
@@ -129,10 +126,8 @@ header {
 
   box-sizing: border-box;
 
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
+  @include mainFont(normal, bold, 14px, 17px);
+
 
   color: #ffffff;
 

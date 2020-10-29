@@ -502,7 +502,7 @@ header, .section__dreamshareWorks .first-article, .section__dreamshareWorks .sec
   background-position: center;
 }
 
-.section__meetPartner li, .section__meetPartner__button {
+.header__top__buttons_style, .section__dreamshareWorks__step, .section__meetPartner li, .section__meetPartner__button, .section-holidayActivity__item, .footer__copy__logo p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -638,15 +638,6 @@ header {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #ffffff;
 }
 
@@ -813,13 +804,14 @@ article {
 @media screen and (min-width: 768px) {
   .section__dreamshareWorks .second-article {
     background-image: url(../img/tablet/Step1image1-min.jpg);
-    padding: 200px 20px 16px;
+    padding: 215px 20px 16px;
   }
 }
 
 @media screen and (min-width: 1140px) {
   .section__dreamshareWorks .second-article {
     background-image: url(../img/desktop/Step1image4-min.jpg);
+    padding: 215px 20px 16px;
   }
 }
 
@@ -841,23 +833,16 @@ article {
 }
 
 .section__dreamshareWorks__step {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 70px;
   height: 20px;
   background: #ff4e50;
   border-radius: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -983,6 +968,7 @@ article {
 
 .section__meetPartner__title {
   margin-bottom: 20px;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
@@ -1134,15 +1120,6 @@ article {
   height: 120px;
   border-radius: 4px;
   background-color: #a0bebb;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1297,7 +1274,6 @@ article {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  /* identical to box height */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1348,16 +1324,16 @@ article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
@@ -1637,15 +1613,6 @@ footer ul li:nth-child(4) {
   font-weight: bold;
   font-size: 10px;
   line-height: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   letter-spacing: 1px;
   color: #CCCCCC;
   margin-bottom: 10px;

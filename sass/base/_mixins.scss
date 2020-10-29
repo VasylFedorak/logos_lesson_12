@@ -9,6 +9,28 @@
     line-height: $height;
 }
 
+@mixin grid($gridColStart, $gridColEnd, $gridRowStart, $gridRowEnd) {
+    grid-column-start: $gridColStart;
+    grid-column-end: $gridColEnd;
+    grid-row-start: $gridRowStart;
+    grid-row-end: $gridRowEnd;
+}
+
+@mixin paddinTopBottom($top, $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+@mixin paddinLeftRight($left, $right) {
+    padding-left: $left;
+    padding-right: $right;
+}
+
+@mixin widthHeight($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 %backgraundIMGstyle {
     background-size: cover;
     background-position: center;

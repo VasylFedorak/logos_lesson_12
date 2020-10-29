@@ -1,11 +1,11 @@
 footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    @include paddinTopBottom(20px, 20px);
+
     border-top: 2px solid #FF4E50;
 
     @media screen and (min-width:$tablet) {
-        padding-top: 35px;
-        padding-bottom: 25px;
+        @include paddinTopBottom(35px, 25px);
+
     }
 }
 
@@ -28,17 +28,13 @@ footer {
 .footer__top__logo {
     @include mainFont(normal, normal, 16px, 20px);
 
-
     display: flex;
     align-items: flex-start;
-
     color: #FF4E50;
 
     @media screen and (max-width:767px) {
         margin-bottom: 13px;
     }
-
-
 }
 
 footer h3 {
@@ -67,8 +63,6 @@ footer h3 {
         flex-direction: column;
 
     }
-
-
 }
 
 footer ul li:not(:last-child) {

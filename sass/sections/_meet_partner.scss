@@ -13,8 +13,8 @@
         ul {
             flex-wrap: wrap;
             margin: -10px;
-            padding-left: 80px;
-            padding-right: 80px;
+            @include paddinLeftRight(80px, 80px);
+
         }
     }
 
@@ -40,8 +40,8 @@
     @media screen and (min-width: $tablet) and (max-width: 1139px) {
         width: calc((100% - 40px) / 2);
 
-        padding-left: 15px;
-        padding-right: 15px;
+        @include paddinLeftRight(15px, 15px);
+
     }
 
     @media screen and(max-width:1139px) {
