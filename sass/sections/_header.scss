@@ -17,14 +17,14 @@ header {
       max-width: $tablet;
       height: 700px;
       padding-top: 40px;
-      background-image: url(/sass/img/tablet/Background11-min.jpg);
+      background-image: url(/img/tablet/Background11-min.jpg);
     }
   }
 
   @media screen and(min-width:$desktop) {
     & {
       max-width: 1440px;
-      background-image: url(/sass/img/desktop/Background-min.jpg);
+      background-image: url(/img/desktop/Background-min.jpg);
     }
   }
 }
